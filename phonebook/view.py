@@ -1,5 +1,3 @@
 def view():
-    with open('phone.txt', 'r') as file:
-        print(file.read)
-
-view()
+    with open('phonebook.txt', 'r', encoding='utf-8') as file:
+        print(file.read())
