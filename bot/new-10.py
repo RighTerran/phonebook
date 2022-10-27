@@ -8,7 +8,7 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 import random
 
 #token = candy_bot.token
-bot = Bot("5756055729:AAEQK6OhSt723NdySrHCUO-yK7vTI80tJx4")
+bot = Bot("token")
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 logging.basicConfig(level=logging.INFO)
